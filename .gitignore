@@ -1,0 +1,8 @@
+# vs directories
+build/obj/
+vs2017/
+vs2019/
+codeblocks/
+codelite/
+.vscode/
+
