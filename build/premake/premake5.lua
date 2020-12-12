@@ -58,7 +58,8 @@ workspace "6502"
 
    -- 6502 core library
    project "cpu"
-      kind "StaticLib"    -- creating static libraries
+      --kind "StaticLib"    -- creating static libraries
+      kind "ConsoleApp"
       location ("../" .. _ACTION .. "/projects/%{prj.name}")
       files {
          "../../cpu/**.**",
